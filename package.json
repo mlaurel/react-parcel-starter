@@ -1,0 +1,32 @@
+{
+  "name": "react-parcel-starter",
+  "version": "1.0.0",
+  "description": "React starter template using Parcel Bundler",
+  "main": "index.js",
+  "keywords": [
+    "react",
+    "parcel",
+    "starter"
+  ],
+  "author": "Mike Laurel",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "parcel src/index.html",
+    "build-prod": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "postcss-modules": "^3.2.2",
+    "autoprefixer": "^9.8.6",
+    "eslint": "^7.9.0",
+    "eslint-plugin-react": "^7.20.6"
+  }
+}
